@@ -1,6 +1,5 @@
 import Header from './Header'
 import Head from 'next/head'
-import React, { useEffect, useRef } from 'react'
 
 function Layout({ children }) {
   return (

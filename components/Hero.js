@@ -19,7 +19,7 @@ export default function Hero() {
         >
           <p className='leading-tight mb-5 max-w-5xl text-gray-900 font-black text-5xl md:text-5xl lg:text-7xl py-14'>
             I’m{' '}
-            <span className='text-transparent text-6xl bg-clip-text bg-gradient-to-r from-indigo-700 to-blue-900'>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-blue-900'>
               Wasimul Sami
             </span>
             , <br /> a website developer.
