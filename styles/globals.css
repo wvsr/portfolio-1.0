@@ -7,9 +7,7 @@
   src: url('/fonts/Almarai-Regular.ttf');
 }
 body {
-  /* font-family: 'sami'; */
-  /* background: #f5f5f5; */
-  color: #282828;
+  font-family: 'Montserrat', sans-serif;
 }
 font-basic {
   font-family: 'sami';
@@ -43,4 +41,21 @@ font-basic {
 
 .button-animate:hover .button-blobs div {
   transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+.glass {
+  /* From https://css.glass */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url('/common-bg.svg');
 }

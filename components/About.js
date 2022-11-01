@@ -1,41 +1,74 @@
 import Image from 'next/image'
 export default function About() {
   return (
-    <div className='py-5 md:py-14 container mx-auto p-3 max-w-5xl'>
-      <article className='flex flex-col md:flex-row gap-6'>
-        <section className='w-full md:w-1/2 order-2 md:order-1'>
-          <h2 className='text-3xl py-8 font-bold tracking-wide'>
-            Hi, I{`'`}m{' '}
-            <span className='text-indigo-600 font-black text-4xl'>
-              Wasimul Sami
-            </span>
-            . Web Developer based in Dhaka, Bangladesh
-          </h2>
-          <p className='text-xl px-2'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            architecto numquam molestias dolore itaque libero suscipit id
-            commodi dolorum, dolorem et natus possimus illo eius enim pariatur
-            exercitationem culpa nam.
-            <br />
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            autem voluptatibus, ipsa nulla totam dolor. At enim quia veritatis
-            doloribus molestias reiciendis maiores eos neque sit. Reprehenderit
-            nesciunt quaerat voluptatibus? Praesentium quaerat quis
+    <div className='py-5 md:py-14 container mx-auto p-3'>
+      <article>
+        <h2 className='text-4xl font-bold text-center'>ABOUT ME</h2>
+        <div className='text-center flex justify-center text-lg text-gray-600 py-8'>
+          <p className='max-w-4xl'>
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology
           </p>
-        </section>
-        <section className=' md:px-6 py-8 w-full md:w-1/2 order-1 md:order-2'>
-          <div>
-            <Image
-              src='/sami.jpg'
-              width={1648 / 3}
-              height={1624 / 3}
-              sizes='100vw'
-              className='w-full h-auto'
-            />
-          </div>
-        </section>
+        </div>
+        <div className='block lg:grid grid-cols-2 gap-10 py-10'>
+          <section>
+            <h3 className='text-2xl font-bold'>Get to know me!</h3>
+            <p className='py-8 text-gray-700 font-medium text-base  tracking-wider leading-8 md:pr-20'>
+              I'm a Frontend Web Developer building the Front-end of Websites
+              and Web Applications that leads to the success of the overall
+              product. Check out some of my work in the Projects section. I also
+              like sharing content related to the stuff that I have learned over
+              the years in <b>Web Development</b> so it can help other people of
+              the Dev Community. <br /> Feel free to Connect or Follow me on my
+              Linkedin where I post useful content related to Web Development
+              and Programming I'm open to <b>Job opportunities</b> where I can
+              contribute, learn and grow. If you have a good opportunity that
+              matches my skills and experience then don't hesitate to contact
+              me.
+            </p>
+            <button className='px-10 py-4 text-lg font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform my-5 outline-none'>
+              PROJECTS
+            </button>
+          </section>
+          <section className='mt-10 lg:mt-0'>
+            <h3 className='text-2xl font-bold'>My skills</h3>
+            <div className='flex gap-3 flex-wrap py-8'>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                HTML
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                CSS
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                React
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                ES6
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Firebase
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Tailwind CSS
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Next JS
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Express JS
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                MongoDB
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Python
+              </div>
+              <div className='py-3 px-5 bg-gray-200 rounded-md text-sm lg:text-lg font-semibold text-gray-500'>
+                Django
+              </div>
+            </div>
+          </section>
+        </div>
       </article>
     </div>
   )
