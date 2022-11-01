@@ -14,11 +14,15 @@ export default function Footer() {
           <p className='my-3 text-gray-200 text-sm'>Made by sami With ❤</p>
           <p className='text-xs capitalize font-extralight'>
             based from{' '}
-            <a href='https://github.com/rammcodes/Dopefolio' target='_blank'>
+            <a
+              href='https://github.com/rammcodes/Dopefolio'
+              target='_blank'
+              rel='noreferrer'
+            >
               Dopefolio Project
             </a>{' '}
             implemented using
-            <a href='https://tailwindcss.com/' target='_blank'>
+            <a href='https://tailwindcss.com/' target='_blank' rel='noreferrer'>
               Tailwind CSS
             </a>
           </p>

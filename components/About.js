@@ -14,16 +14,16 @@ export default function About() {
           <section>
             <h3 className='text-2xl font-bold'>Get to know me!</h3>
             <p className='py-8 text-gray-700 font-medium text-base  tracking-wider leading-8 md:pr-20'>
-              I'm a Frontend Web Developer building the Front-end of Websites
+              I am a Frontend Web Developer building the Front-end of Websites
               and Web Applications that leads to the success of the overall
               product. Check out some of my work in the Projects section. I also
               like sharing content related to the stuff that I have learned over
               the years in <b>Web Development</b> so it can help other people of
               the Dev Community. <br /> Feel free to Connect or Follow me on my
               Linkedin where I post useful content related to Web Development
-              and Programming I'm open to <b>Job opportunities</b> where I can
+              and Programming I am open to <b>Job opportunities</b> where I can
               contribute, learn and grow. If you have a good opportunity that
-              matches my skills and experience then don't hesitate to contact
+              matches my skills and experience then do not hesitate to contact
               me.
             </p>
             <button className='px-10 py-4 text-lg font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform my-5 outline-none'>

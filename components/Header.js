@@ -18,6 +18,7 @@ export default function Header() {
             width={40}
             height={40}
             className='rounded-full'
+            alt='wasimul vari sami'
           />
           <p>wasimul sami</p>
         </div>
