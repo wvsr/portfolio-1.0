@@ -7,7 +7,7 @@ import { FcSms } from 'react-icons/fc'
 export default function Hero() {
   return (
     <div>
-      <div className='w-full h-screen block hero'>
+      <div className='w-full h-[40rem] md:h-screen block hero'>
         <article className='flex flex-col items-center justify-center h-screen w-full space-y-10 absolute top-0 left-0 text-black text-center p-4'>
           <h1 className='text-4xl sm:text-5xl md:text-6xl font-black'>
             Hey, I am Wasimul Sami.

@@ -3,7 +3,7 @@ export default function About() {
   return (
     <div className='py-5 md:py-14 container mx-auto p-3'>
       <article>
-        <h2 className='text-4xl font-bold text-center'>ABOUT ME</h2>
+        <h2 className='text-3xl sm:text-4xl font-bold text-center'>ABOUT ME</h2>
         <div className='text-center flex justify-center text-lg text-gray-600 py-8'>
           <p className='max-w-4xl'>
             Here you will find more information about me, what I do, and my
@@ -26,8 +26,8 @@ export default function About() {
               matches my skills and experience then do not hesitate to contact
               me.
             </p>
-            <button className='px-10 py-4 text-lg font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform my-5 outline-none'>
-              PROJECTS
+            <button className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
+              CONTACT
             </button>
           </section>
           <section className='mt-10 lg:mt-0'>

@@ -48,7 +48,7 @@ export default function Header() {
         </div>
       </nav>
       {toggleNav && (
-        <div className='block md:hidden nav-animate animate-pulse'>
+        <div className='block md:hidden nav-animate'>
           <ul className='list-none capitalize ml-4'>
             <li className='hover:text-yellow-500 font-bold border-t border-gray- py-4 duration-150 transition-colors'>
               <Link href='/home'>home</Link>
