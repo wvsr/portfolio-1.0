@@ -40,7 +40,7 @@ export default function Header() {
         </div>
         <div className='md:hidden block'>
           <button
-            className='text-lg outline-none px-3 py-2 rounded-md'
+            className='text-2xl outline-none px-3 py-2 rounded-md'
             onClick={() => setToggleNav(!toggleNav)}
           >
             <AiOutlineMenu />

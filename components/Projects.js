@@ -11,7 +11,7 @@ function Projects() {
     <div className='py-14 px-4 bg-[#fafafa]'>
       <div className='flex flex-col items-center space-y-8'>
         <h2 className='text-3xl md:text-4xl font-bold'>PROJECTS</h2>
-        <p className='text-lg max-w-3xl text-center font-medium text-gray-700'>
+        <p className='text-sm sm:text-lg max-w-3xl text-center font-medium text-gray-700'>
           Here you will find some of the personal and clients projects that I
           created with each project containing its own case study
         </p>
@@ -28,7 +28,7 @@ function Projects() {
           </div>
           <div className='space-y-10 flex items-center md:items-start justify-center flex-col mt-8 md:mt-0'>
             <h3 className='text-2xl font-bold'>Yubter</h3>
-            <p className='text-center md:text-left text-gray-700'>
+            <p className='text-center md:text-left text-gray-700 text-sm sm:text-base '>
               Yubter is a platform that I created where people can join the
               community of their favorite youtube channels and can be part of
               the conversation.

@@ -1,8 +1,8 @@
 function Contact() {
   return (
     <div className='py-32 hero flex items-center flex-col p-4'>
-      <h2 className='text-center font-bold text-4xl'>CONTACT</h2>
-      <p className='text-lg font-medium text-gray-700 py-8 max-w-3xl text-center'>
+      <h2 className='text-center font-bold sm:text-3xl text-4xl'>CONTACT</h2>
+      <p className='text-base sm:text-lg font-medium text-gray-700 py-8 max-w-3xl text-center'>
         Feel free to Contact me by submitting the form below and I will get back
         to you as soon as possible
       </p>

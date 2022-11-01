@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-import Button from './Button'
-import { FcSms } from 'react-icons/fc'
 
 // based in Dhaka. Available for freelance & collaborations.
 
