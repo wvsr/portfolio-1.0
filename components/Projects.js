@@ -8,7 +8,7 @@ function Projects() {
   ]
 
   return (
-    <div className='py-14 px-4 bg-[#fafafa]'>
+    <div className='pt-24 pb-14 px-4 bg-[#fafafa]' id='project'>
       <div className='flex flex-col items-center space-y-8'>
         <h2 className='text-3xl md:text-4xl font-bold'>PROJECTS</h2>
         <p className='text-sm sm:text-lg max-w-3xl text-center font-medium text-gray-700'>

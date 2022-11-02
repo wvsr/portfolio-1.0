@@ -1,7 +1,10 @@
 import Image from 'next/image'
 export default function About() {
   return (
-    <div className='py-20 md:py-14 container mx-auto p-3'>
+    <div
+      className='pt-20 pb-16 md:pt-24 md:pb-14 container mx-auto px-3'
+      id='about'
+    >
       <article>
         <h2 className='text-3xl sm:text-4xl font-bold text-center'>ABOUT ME</h2>
         <div className='text-center flex justify-center text-base sm:text-lg text-gray-600 py-8'>
@@ -12,7 +15,7 @@ export default function About() {
         </div>
         <div className='block lg:grid grid-cols-2 gap-10 py-10'>
           <section>
-            <h3 className='text-2xl font-bold'>Get to know me!</h3>
+            <h3 className='text-base sm:text-2xl font-bold'>Get to know me!</h3>
             <p className='py-8 text-gray-800 font-medium text-sm sm:text-base  tracking-wider leading-8 md:pr-20'>
               I am a Frontend Web Developer building the Front-end of Websites
               and Web Applications that leads to the success of the overall

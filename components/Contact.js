@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className='py-32 hero flex items-center flex-col p-4'>
+    <div className='py-32 hero flex items-center flex-col p-4' id='contact'>
       <h2 className='text-center font-bold sm:text-3xl text-4xl'>CONTACT</h2>
       <p className='text-base sm:text-lg font-medium text-gray-700 py-8 max-w-3xl text-center'>
         Feel free to Contact me by submitting the form below and I will get back
@@ -15,7 +15,7 @@ function Contact() {
             <input
               type='text'
               id='name'
-              className='w-full py-3.5 pl-2 rounded-md bg-gray-100 outline-none'
+              className='w-full py-3.5 pl-2 rounded-md bg-[#f0f0f0] outline-none'
               placeholder='Enter Your Name'
             />
           </section>
@@ -26,7 +26,7 @@ function Contact() {
             <input
               type='text'
               id='email'
-              className='w-full py-3.5 pl-2 rounded-md bg-gray-100 outline-none'
+              className='w-full py-3.5 pl-2 rounded-md bg-[#f0f0f0] outline-none'
               placeholder='Enter Your Email'
             />
           </section>
@@ -42,7 +42,7 @@ function Contact() {
               id='message'
               cols='30'
               rows='10'
-              className='w-full py-3.5 pl-2 rounded-md bg-gray-100 outline-none'
+              className='w-full py-3.5 pl-2 rounded-md bg-[#f0f0f0] outline-none'
               placeholder='Enter Your Message'
             ></textarea>
           </section>
