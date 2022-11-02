@@ -24,7 +24,12 @@ function Projects() {
           style={{ gridTemplateColumns: '1.5fr 1fr' }}
         >
           <div className='h-auto max-w-fit w-full'>
-            <Image src='/yubter.jpeg' width={1080} height={640} />
+            <Image
+              src='/yubter.jpeg'
+              width={1080}
+              height={640}
+              loading='lazy'
+            />
           </div>
           <div className='space-y-10 flex items-center md:items-start justify-center flex-col mt-8 md:mt-0'>
             <h3 className='text-2xl font-bold'>Yubter</h3>
