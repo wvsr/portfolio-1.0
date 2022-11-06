@@ -12,8 +12,7 @@ function Projects() {
       <div className='flex flex-col items-center space-y-8'>
         <h2 className='text-3xl md:text-4xl font-bold'>PROJECTS</h2>
         <p className='text-sm sm:text-lg max-w-3xl text-center font-medium text-gray-700'>
-          Here you will find some of the personal and clients projects that I
-          created with each project containing its own case study
+          Here you will find my feature showcase projects.
         </p>
         <div></div>
       </div>

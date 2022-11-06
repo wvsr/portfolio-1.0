@@ -17,20 +17,22 @@ export default function About() {
           <section>
             <h3 className='text-base sm:text-2xl font-bold'>Get to know me!</h3>
             <p className='py-8 text-gray-800 font-medium text-sm sm:text-base  tracking-wider leading-8 md:pr-20'>
-              I am a Frontend Web Developer building the Front-end of Websites
-              and Web Applications that leads to the success of the overall
-              product. Check out some of my work in the Projects section. I also
-              like sharing content related to the stuff that I have learned over
-              the years in <b>Web Development</b> so it can help other people of
-              the Dev Community. <br /> Feel free to Connect or Follow me on my
-              Linkedin where I post useful content related to Web Development
-              and Programming I am open to <b>Job opportunities</b> where I can
-              contribute, learn and grow. If you have a good opportunity that
-              matches my skills and experience then do not hesitate to contact
-              me.
+              I am a <b>Full stack Web Developer</b> building the Websites and
+              Web Applications that leads to the success of the overall product.
+              Check out some of my work in the Projects section. I also like
+              sharing content related to the stuff that I have learned over the
+              years in Web Development so it can help other people. With my
+              experience as a Web Developer, I've learned to build web
+              applications from scratch as well as maintain existing
+              applications. <br /> My skills are not just limited to
+              programming, but I also know how to deal with graphic design,
+              digital marketing, and user experience design.Do you need help
+              developing your next product or project? Get in touch with me and
+              let's discuss your requirements! <br /> Contact me now for any web
+              development needs you have!
             </p>
             <button className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
-              CONTACT
+              <a href='/contact'>CONTACT</a>
             </button>
           </section>
           <section className='mt-14 lg:mt-0'>

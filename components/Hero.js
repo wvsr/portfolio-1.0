@@ -11,14 +11,13 @@ export default function Hero() {
             Hey, I am Wasimul Sami.
           </h1>
           <div className='flex justify-center'>
-            <p className='max-w-4xl md:text-xl font-medium text-center leading-7'>
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+            <p className='max-w-4xl md:tgit add .ext-xl font-medium text-center leading-7'>
+              A Full stack Web Developer building the Websites and Web
+              Applications that leads to the success of the overall product.
             </p>
           </div>
           <button className='px-10 py-4 text-lg font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
-            PROJECTS
+            <a href='#project'>PROJECTS</a>
           </button>
         </article>
       </div>

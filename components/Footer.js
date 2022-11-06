@@ -6,11 +6,11 @@ export default function Footer() {
           Wasimul Sami
         </h3>
         <p className='mt-8 max-w-lg text-sm font-medium'>
-          A Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product
+          A Full stack Web Developer building the Websites and Web Applications
+          that leads to the success of the overall product.
         </p>
         <div className='mt-14 border-t border-[#444] text-center py-5'>
-          <p className='my-3 text-gray-200 text-sm'>Made by sami With ❤</p>
+          <p className='my-3 text-gray-200 text-sm'>Made with ❤ by sami</p>
           <p className='text-xs capitalize font-extralight'>
             based from{' '}
             <a
@@ -20,7 +20,7 @@ export default function Footer() {
             >
               Dopefolio Project
             </a>{' '}
-            implemented using
+            implemented using{' '}
             <a href='https://tailwindcss.com/' target='_blank' rel='noreferrer'>
               Tailwind CSS
             </a>

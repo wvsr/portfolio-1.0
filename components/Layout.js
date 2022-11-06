@@ -5,6 +5,7 @@ function Layout({ children }) {
   return (
     <div>
       <Head>
+        <title>Wasimul Vari Sami - Web Programmer</title>
         <meta name='title' content='Wasimul Vari Sami - Web Programmer' />
         <meta
           name='description'

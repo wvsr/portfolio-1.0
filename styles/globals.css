@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'sami';
-  src: url('/fonts/Almarai-Regular.ttf');
-}
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-font-basic {
-  font-family: 'sami';
+html {
+  scroll-behavior: smooth;
 }
 
 /* width */
