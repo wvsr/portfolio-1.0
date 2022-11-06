@@ -22,14 +22,14 @@ export default function About() {
               Check out some of my work in the Projects section. I also like
               sharing content related to the stuff that I have learned over the
               years in Web Development so it can help other people. With my
-              experience as a Web Developer, I've learned to build web
+              experience as a Web Developer, {`I've`} learned to build web
               applications from scratch as well as maintain existing
               applications. <br /> My skills are not just limited to
               programming, but I also know how to deal with graphic design,
               digital marketing, and user experience design.Do you need help
               developing your next product or project? Get in touch with me and
-              let's discuss your requirements! <br /> Contact me now for any web
-              development needs you have!
+              {`let's`} discuss your requirements! <br /> Contact me now for any
+              web development needs you have!
             </p>
             <button className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
               <a href='/contact'>CONTACT</a>
