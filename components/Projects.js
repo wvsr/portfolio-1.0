@@ -21,6 +21,7 @@ function Projects() {
               className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'
               href={link}
               target='_blank'
+              rel="noreferrer"
             >
               PROJECTS
             </a>
