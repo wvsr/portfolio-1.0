@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 export default function Header() {
   const [toggleNav, setToggleNav] = React.useState(false)
-  const nodeRef = React.useRef(null)
+
   return (
     <header className='w-full top-0 fixed bg-slate-50 shadow-lg text-gray-900 z-50'>
       <nav className='container mx-auto px-2 py-4 flex justify-between items-center w-full'>
@@ -19,10 +19,11 @@ export default function Header() {
               width={40}
               height={40}
               className='rounded-full'
-              loading='lazy'
               alt='wasimul vari sami'
             />
-            <p>wasimul sami</p>
+            <a href='#'>
+              <p>wasimul sami</p>
+            </a>
           </div>
         </Link>
         <div className='hidden md:block text-lg'>
@@ -56,21 +57,29 @@ export default function Header() {
       {toggleNav && (
         <div className='block md:hidden nav-animate'>
           <ul className='list-none capitalize ml-4'>
-            <li className='hover:text-yellow-500 font-bold duration-150 transition-colors py-6'>
-              <a href='#about' className='w-full'>
-                about
-              </a>
-            </li>
-            <li className='hover:text-yellow-500 font-bold duration-150 transition-colors py-6'>
-              <a href='#project' className='w-full'>
-                project
-              </a>
-            </li>
-            <li className='hover:text-yellow-500 font-bold duration-150 transition-colors py-6'>
-              <a href='#contact' className='w-full'>
-                contact
-              </a>
-            </li>
+            <a
+              href='#about'
+              className='w-full hover:text-yellow-500 font-bold duration-150 transition-colors py-6 block'
+              onClick={() => setToggleNav(false)}
+            >
+              about
+            </a>
+
+            <a
+              href='#project'
+              className='w-full hover:text-yellow-500 font-bold duration-150 transition-colors py-6 block'
+              onClick={() => setToggleNav(false)}
+            >
+              project
+            </a>
+
+            <a
+              href='#contact'
+              className='w-full hover:text-yellow-500 font-bold duration-150 transition-colors py-6 block'
+              onClick={() => setToggleNav(false)}
+            >
+              contact
+            </a>
           </ul>
         </div>
       )}
