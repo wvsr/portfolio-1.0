@@ -23,7 +23,7 @@ function Projects() {
               target='_blank'
               rel="noreferrer"
             >
-              PROJECTS
+              OPEN LIVE
             </a>
           </div>
         </div>
@@ -49,13 +49,13 @@ function Projects() {
           desc='MovieBase is movie database website made with TMDB database. the website contain tending movies, searching movies or tv series, genres section with modern UI'
         />
         <ProjectItem
-          link='https://cryptobase.netlify.app/'
-          title='CryptoBase'
+          link='https://cryptobysami.netlify.app/'
+          title='CoinBase'
           img='/cryptobase.png'
           desc='CryptoBase is a crypto dashboard website. the webapp created using nextJs with ISR functionality. the website contain with trending coin, latest crypto newses, exchange crypto price in different currency section. Data updated in every 10 minute.'
         />
         <ProjectItem
-          link='https://cryptobase.netlify.app/'
+          link='https://fahad-sir.netlify.app/'
           title='Teacher Website'
           img='/youtuber-website.png'
           desc='The website made for ed-tech YouTuber. The website sync every new video uploaded in Channel automatically and show al the latest data. '
