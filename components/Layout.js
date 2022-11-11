@@ -32,7 +32,7 @@ function Layout({ children }) {
       </Head>
       <Header />
       <div className='fixed bottom-10 left-[16px] md:left-16 z-50 text-gray-100'>
-      <a href='https://www.fiverr.com/share/1NXKa9' target='_blank' rel='noreferrer' className='capitalize px-10 py-4 text-sm font-bold bg-blue-500 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
+      <a href='https://www.fiverr.com/share/1NXKa9' target='_blank' rel='noreferrer' className='capitalize px-10 py-4 text-sm font-bold bg-blue-700 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
               hire me :)
       </a>
       </div>
