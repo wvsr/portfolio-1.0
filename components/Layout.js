@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className='relative'>
       <Head>
         <title>Wasimul Vari Sami - Web Programmer</title>
         <meta name='title' content='Wasimul Vari Sami - Web Programmer' />
@@ -31,6 +31,11 @@ function Layout({ children }) {
         />
       </Head>
       <Header />
+      <div className='absolute bottom-10 left-16'>
+      <a href='https://www.fiverr.com/share/1NXKa9' target='_blank' rel='noreferrer' className='capitalize px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
+              hire me :)
+      </a>
+      </div>
       <main className='w-full '>{children}</main>
     </div>
   )

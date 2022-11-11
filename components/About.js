@@ -31,9 +31,9 @@ export default function About() {
               {`let's`} discuss your requirements! <br /> Contact me now for any
               web development needs you have!
             </p>
-            <button className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
-              <a href='/contact'>CONTACT</a>
-            </button>
+            <a href='#contact' className='px-10 py-4 text-sm font-bold bg-yellow-400 rounded-lg shadow-xl hover:-translate-y-1 duration-200 transition-transform outline-none'>
+              CONTACT
+            </a>
           </section>
           <section className='mt-14 lg:mt-0'>
             <h3 className='text-2xl font-bold'>My skills</h3>
